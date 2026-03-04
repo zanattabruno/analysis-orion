@@ -42,7 +42,7 @@ Key directories include:
 * `llm/`: Large Language Model (LLM) integration, prompt testing, and experiments.
 * `times/`: Time-related metrics, latency, and performance efficiency evaluations.
 * `figures/`: Generated figures and plots used directly or indirectly in the paper.
-* `resources/`: Additional datasets or shared files required for the analysis.
+* `resources/`: Additional datasets or shared files required for the analysis. Includes the intent classification dataset, publicly available at [`intent_dataset.csv`](https://github.com/gabiSmachado/ORION/blob/main/src/test/intent_dataset.csv).
 
 ---
 *For functional details and the codebase of each specific Open RAN component, please navigate to the respective repository linked above.*
