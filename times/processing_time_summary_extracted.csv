@@ -1,0 +1,16 @@
+layer,component,label,count,mean_ms,std_dev_ms,min_ms,max_ms,corr_rate_pct,cv_pct
+E2 Node,e2sim,E2 Node Control Processing,4,0.66,0.06,0.62,0.75,0.0,9.1
+E2 Node,e2sim,E2 Node Slice Registration,4,0.62,0.07,0.57,0.72,0.0,11.3
+Frontend,frontend,Frontend Connection,4,2.30,0.23,2.00,2.48,0.0,10.0
+Frontend,frontend,Frontend E2E Response,5,8431.38,2010.83,5643.96,10633.23,0.0,23.8
+Near-RT RIC,a1mediator,A1 Mediator Processing,24,2.38,1.48,0.66,5.25,0.0,62.2
+Near-RT RIC,orion-xapp,xApp Full Policy Processing,82,6.36,0.85,5.32,8.87,0.0,13.4
+Near-RT RIC,orion-xapp,xApp Policy→Control,59,169.65,105.42,12.66,356.23,0.0,62.1
+Near-RT RIC,orion-xapp,xApp Wait for E2 ACK,5,2.51,2.03,1.52,6.14,0.0,80.9
+SMO,mcp-client,SMO Intent→Policy,4,9025.39,1413.60,7661.47,10485.20,0.0,15.7
+SMO,mcp-client,SMO LLM→Tool Start,4,3434.98,416.41,3008.25,3982.62,0.0,12.1
+SMO,mcp-client,SMO MCP Tool Execution,4,47.30,9.62,37.53,60.39,0.0,20.3
+SMO,mcp-client,SMO Policy Creation,4,5508.44,1438.16,4332.03,7366.32,0.0,26.1
+SMO,mcp-server,MCP Server Session→Request,2,15070.26,2323.66,13427.19,16713.34,0.0,15.4
+rApp,rapp,rApp PUT to Non-RT RIC,4,111.91,37.15,74.99,163.18,0.0,33.2
+rApp,rapp,rApp Policy Translation,8,112.37,34.52,75.23,163.86,0.0,30.7
