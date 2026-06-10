@@ -20,7 +20,7 @@ The complete system architecture, dubbed **ORION**, is distributed across severa
 * **[orion-xapp](https://github.com/zanattabruno/orion-xapp/)**: The **Orion xApp (OxApp)**. A C++ application terminating the A1 interface. It dynamically translates SLA policy objectives from the OrApp into precise E2SM-RC control messages, calculating real-time PRB quotas based on cell capacity.
 
 ### RAN Level (E2 Node Emulator)
-* **[e2sim-rc](../e2sim-rc)**: The **E2Sim (e2sim-rc)**. An extended OSC E2 Simulator emulating a gNB. Supports E2SM-RC Control Style 2 (Radio Resource Allocation) and performs physical resource block (PRB) capacity validation acting as a resource guard.
+* **[e2sim-rc](https://github.com/alexandre-huff/e2sim-rc)**: The **E2Sim (e2sim-rc)**. An extended OSC E2 Simulator emulating a gNB. Supports E2SM-RC Control Style 2 (Radio Resource Allocation) and performs physical resource block (PRB) capacity validation acting as a resource guard.
 
 ## End-to-End Intent Workflow
 
